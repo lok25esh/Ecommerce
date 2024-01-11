@@ -1,0 +1,60 @@
+HTML
+-->if you want to use fonts use star rating from w3schools website and add the link to your html
+add icon library ro your file
+-->in anchor a we use # ->meaning does not redirect to anywhere stay in this website
+-->text-transform: capitalize;  changes first character into capital from
+
+--> UNITS
+there are two types of units they are absolute and relative 
+
+--> absolute unites are fixed they do not change according to the screen size so browser shows 
+a scroll bar which is not a good practice 
+pixes are fixed units
+
+--> relative units chage according to the screen size 
+% is a relative unit 
+but consider a two divs where div 1 is parent div and div2 is child div now if u provide height and width 
+to the child it will adjust according to the parent div not according to the screen size 
+
+em And rem relative units
+em works according to the parent size 1em = 16px 
+rem works according to the root size i.e html size
+
+vw and vh 
+workes acccording to browser size it depends on browser not on parent element
+
+--->Transistion Properties
+ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+linear - specifies a transition effect with the same speed from start to end
+ease-in - specifies a transition effect with a slow start
+ease-out - specifies a transition effect with a slow end
+ease-in-out - specifies a transition effect with a slow start and end
+
+---->Transform Properties
+With the CSS transform property you can use the following 2D transformation methods:
+
+translate()-The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).
+rotate()
+scaleX()
+scaleY()
+scale()
+skewX()
+skewY()
+skew()
+matrix()
+
+---->position
+absolute->its top and left becomes zero
+relative-> we can change according to the values it remains at its original position
+
+JAVASCRIPT
+Event Listners
+1.addEventListner("click","mousemove","")
+2.removerEventListner
+
+###Classs List##
+class list is nothing but we can give new class name to the existing element
+classList.add()-->adding new class name having property
+classList.remove()-->removing that class having property
+classList.repalce(className,newClassName)-->replacing a class name
+classList.toggle('')-->if the class is present it will remove it or viceversa
